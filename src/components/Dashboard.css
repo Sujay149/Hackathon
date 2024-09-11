@@ -1,0 +1,47 @@
+.dashboard {
+    padding: 24px;
+    text-align: center;
+    background-color: rgb(233, 233, 233);
+  }
+  
+  .dashboard h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 24px;
+  }
+  
+  .dashboard .grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 24px;
+  }
+  
+  @media (min-width: 640px) {
+    .dashboard .grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .dashboard .grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  .dashboard .card {
+    background-color: #90ade8;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard .card h2 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .dashboard .card p {
+    font-size: 2rem;
+  }
+  

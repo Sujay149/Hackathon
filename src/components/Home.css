@@ -1,0 +1,28 @@
+.home {
+    padding: 154px;
+    text-align: center;
+    background: url('C:\Users\sujay\app1\src\components\WhatsApp Image 2024-09-10 at 09.46.43_9e188294.jpg');
+    font-size:4rem;
+    height:30vh;
+    color:rgb(83, 10, 10);
+    font-weight: 1000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+  }
+ 
+  .home h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 16px; 
+    color: rgb(182, 104, 73);
+  }
+  
+  .home p {
+    font-size: 1.25rem;
+    color: rgb(175, 244, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
